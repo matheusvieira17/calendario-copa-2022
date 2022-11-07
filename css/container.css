@@ -7,10 +7,12 @@
 
 header {
   margin-bottom: 6.3rem;
+  text-align: center;
 }
 
 .card {
   padding: 3.2rem 2.3rem;
+  width: 30rem;
   text-align: center;
   background-color: #1d1c19;
   border-bottom: 2px solid #f7dd43;
@@ -33,23 +35,21 @@ header {
 }
 
 .card span {
-    color: #e1e1e6;
-    font-size: 1.4rem;
-    text-transform: uppercase;
+  color: #e1e1e6;
+  font-size: 1.4rem;
+  text-transform: uppercase;
 }
 
 .card ul li {
-    margin-top: 5.3rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  margin-top: 5.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .card ul li strong {
-    color: #e1e1e6;
-    font-weight: 900;
-    font-size: 3.6rem;
-    line-height: 4.5rem
+  color: #e1e1e6;
+  font-weight: 900;
+  font-size: 3.6rem;
+  line-height: 4.5rem;
 }
-
-
