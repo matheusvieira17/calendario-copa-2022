@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+.container {
+  width: fit-content;
+  margin: 5.2rem auto;
+}
+
+header {
+  margin-bottom: 6.3rem;
+}
+
+.card {
+  padding: 3.2rem 2.3rem;
+  text-align: center;
+  background-color: #1d1c19;
+  border-bottom: 2px solid #f7dd43;
+  border-radius: 0.6rem;
+}
+
+.card h2 {
+  width: fit-content;
+  margin: auto;
+  color: #f7dd43;
+  font-weight: 700;
+  font-size: 2.4rem;
+  padding: 0.8rem 1.6rem;
+  border: 1px solid #746615;
+  border-radius: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.card span {
+    color: #e1e1e6;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.card ul li {
+    margin-top: 5.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card ul li strong {
+    color: #e1e1e6;
+    font-weight: 900;
+    font-size: 3.6rem;
+    line-height: 4.5rem
+}
+
+
