@@ -21,19 +21,19 @@ header {
   padding: 3.2rem 2.3rem;
   width: 30rem;
   text-align: center;
-  background-color: #1d1c19;
-  border-bottom: 2px solid #f7dd43;
+  background-color: var(--bckg-card-color);
+  border-bottom: 2px solid var(--second-color);
   border-radius: 0.6rem;
 }
 
 .card h2 {
   width: fit-content;
   margin: auto;
-  color: #f7dd43;
+  color: var(--second-color);
   font-weight: 700;
   font-size: 2.4rem;
   padding: 0.8rem 1.6rem;
-  border: 1px solid #746615;
+  border: 1px solid var(--third-color);
   border-radius: 0.6rem;
   display: flex;
   justify-content: center;
@@ -42,7 +42,7 @@ header {
 }
 
 .card span {
-  color: #e1e1e6;
+  color: var(--first-color);
   font-size: 1.4rem;
   text-transform: uppercase;
 }
@@ -60,7 +60,7 @@ header {
 }
 
 .card ul li strong {
-  color: #e1e1e6;
+  color: var(--first-color);
   font-weight: 900;
   font-size: 3.6rem;
   line-height: 4.5rem;

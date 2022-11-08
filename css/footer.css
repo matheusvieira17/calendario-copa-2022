@@ -1,17 +1,17 @@
 @charset "UTF-8";
 
 footer {
-    color: whitesmoke;
-    font-weight: 300;
-    letter-spacing: 0.3px;
-    opacity: 0.4;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-direction: column;
-    gap: 1rem;
+  color: var(--first-color);
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  opacity: 0.4;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }

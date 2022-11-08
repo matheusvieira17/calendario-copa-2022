@@ -1,21 +1,19 @@
 @media (min-width: 768px) {
-
-    .cards {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 @media (min-width: 960px) {
-    footer {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        text-align: center;
-        width: 100%;
-    }
-
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+  }
 }
