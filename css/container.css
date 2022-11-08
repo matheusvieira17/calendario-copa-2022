@@ -14,6 +14,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
+  cursor: pointer;
 }
 
 .card {
@@ -44,6 +45,11 @@ header {
   color: #e1e1e6;
   font-size: 1.4rem;
   text-transform: uppercase;
+}
+
+.card ul li img:hover {
+  transform: scale(1.08);
+  transition: all 0.4s;
 }
 
 .card ul li {
