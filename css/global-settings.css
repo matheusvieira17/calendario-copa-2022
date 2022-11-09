@@ -10,7 +10,7 @@
 :root {
   font-size: 10px;
   --bckg-body-color: #121214;
-  --bckg-card-color: #1d1c19;
+   --bckg-card-color: #1d1c19; 
   --first-color: #e1e1e6;
   --second-color: #f7dd43;
   --third-color: #746615;
@@ -20,7 +20,7 @@ body {
   background-color: var(--bckg-body-color);
   background-image: url(/images/background.svg);
   background-position-x: center;
-  background-position-y: -71.5rem;
+  background-position-y: top;
   background-repeat: no-repeat;
   background-size: cover;
 }

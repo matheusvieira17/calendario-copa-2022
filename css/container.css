@@ -20,10 +20,9 @@ header {
 .card {
   padding: 3.2rem 2.3rem;
   width: 30rem;
-  text-align: center;
   background-color: var(--bckg-card-color);
   border-bottom: 2px solid var(--second-color);
-  border-radius: 0.6rem;
+  border-radius: 1rem;
 }
 
 .card h2 {
